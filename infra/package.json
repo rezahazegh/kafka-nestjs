@@ -1,0 +1,12 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "topic-list": "docker exec -ti kafka1 kafka-topics --bootstrap-server localhost:9092 --list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
